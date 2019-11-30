@@ -1,0 +1,69 @@
+ body{
+            font-family: "Helvetica Neue", sans-serif;
+            margin: 0;
+        }
+        nav{
+            background-color: black;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden; /* see below */
+        }
+        nav ul li{
+            float: left; /* it has overflown the background color
+                            to fix this, we need to add overflow:hidden
+                            to the 'ul' */
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+            display: inline-block; /* mandatory */
+        }
+        nav ul li a:hover{
+            background-color: gray;
+            color: white;
+            border-radius: 7px;
+        }
+        nav ul li a.active{
+            background-color: forestgreen;
+            border-radius: 7px;
+        }
+    .search-form{
+        margin-top:15px;
+        float:right; 
+        margin-right:100px;
+        margin-bottom:10px;
+       
+    }
+    input[type=text]{
+        padding-bottom: 10px;
+        border:1px solid green;
+        font-size:15px;
+        font-family: sans-serif;
+        border-radius: 17px;
+        align-items: center;
+        margin-left:15px;
+    
+
+        }
+        button{
+            float: right;
+            background:red;
+            color:white;
+            border-radius: 0 5px 5px 0px;
+            cursor: pointer;
+            position: relative;
+            padding-bottom: 10px;
+            font-family: sans-serif;
+            border:none;
+            font-size:16px;
+        }
+    
+    

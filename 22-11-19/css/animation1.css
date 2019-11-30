@@ -1,0 +1,41 @@
+.simple{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	animation-name: simple;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes simple{
+	from{
+		background-color: red;
+	}
+	to{
+		background-color: yellow;
+	}
+}
+.percentage{
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	animation-name: percentage;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes percentage {
+	0%{
+		background-color: red;
+	}
+	25%{
+		background-color: yellow;
+	}
+	50%{
+		background-color: green;
+	}
+	75%{
+		background-color: violet;
+	}
+	100%{
+		background-color: skyblue;
+	}
+}

@@ -1,0 +1,43 @@
+.sri{
+	background-color: red;
+	height: 200px;
+	width:200px;
+	position: relative;
+	animation-name: sri;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes sri{
+
+	25%{
+		border-radius:44%;
+		background-color: red;
+		width:200px;
+		height: 100Px;
+		transform: scale(2,3);
+		
+	}
+	50%{
+		border-radius: 32%;
+		background-color: green;
+		height: 200px;
+		width:200px;
+		transform: scale(2,3);
+		
+	}
+75%{
+	border-radius: 55%;
+		background-color: violet;
+		height: 200px;
+		width:200px;
+	transform: scale(2,3);
+}
+100%{
+	border-radius: 50%;
+		background-color:skyblue;
+		height: 200px;
+		width:200px;
+		transform:scale(2,3);
+	   
+}
+}
